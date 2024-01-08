@@ -287,4 +287,132 @@ ul ol{
     margin-bottom: 50px;
 }
 
+.product-item{
+    
+    flex-direction: row-reverses;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.product-item img{
+    width: 300px;
+    margin: 12px;
+}
+.product-item img:hover{
+    width: 305px;
+    transition: all linear 0.2s;
+    border: 5px solid lightgreen;
+    border-radius: 15px;
+}
+
 /* ----------------portfolio section end hare ------------------------ */
+
+
+/* ==================subscriber section start hare========================= */
+
+
+.subscriber-section{
+    margin: 100px 0;
+    text-align: center;
+}
+.subscriber-section img{
+
+}
+.subscriber-section h1{
+    color: #070211;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.subscriber-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size:20px ;
+    font-weight: 400;
+    line-height:32px ;
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.subscriber-section input{
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    background-color: #e7e4e4;
+}
+.subscriber-section button{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: -7px;
+    width: 150px;
+    height: 50px ;
+    border: none;
+    background-color:#c27b7bc4 ;
+    border-radius: 0 25px 25px 0;
+}
+.subscriber-section button:hover{
+    background-color: #F00;
+    transition: all linear 0.3s;
+}
+
+/* ==================subscriber section end hare========================= */
+
+
+/* ------------------footer section start hare --------------------  */
+
+
+footer{
+    background-color: #070211;
+    padding: 100px 0;
+    padding-bottom: 0;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.about p{
+    margin-left: 100px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.about a{
+    margin-right: 100px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.about a:hover{
+    color: #F00;
+    transition: all linear 0.3s;
+}
+.social-link{
+    padding-top: 100px;
+    text-align: center;
+    
+}
+.social-link img{
+    margin: 0 10px;
+}
+.social-link img:hover{
+    width: 66px;
+    transition: all linear 0.5s;
+}
+.last-div{
+    display: flex;
+    justify-content: space-between;
+    padding:100px 100px;
+    color: #fff;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 500;
+}
+.last-div #unsubscribe:hover{
+    color: #F00;
+    font-size:25px ;
+    transition: all linear 0.3s;
+}
+
+/* ------------------footer section end hare --------------------  */
