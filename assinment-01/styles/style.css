@@ -199,4 +199,92 @@ ul ol{
 
 }
 
+.section-desc{
+    margin: 120px 0;
+    text-align: center;
+}
+.section-desc h5{
+    color:#070211 ;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.section-desc h1{
+    margin-bottom: 28px;
+    font-size: 72px;
+    font-weight: 900;
+}
+.section-desc span{
+    color: #F00;
+}
+.section-desc p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size:20px ;
+    font-weight:500 ;
+    margin-top: 0;
+    margin-bottom: 70px;
+    line-height: 32px;
+}
+
+.discount-section{
+    background-image: url("../images/Rectangle-2.png");
+    height: 180px;
+    text-align: center;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.dis-img-1{
+    width: 500px;
+    height: 400px;
+    position: relative;
+    bottom: 250px;
+    left: 80px;
+}
+
+.dis-img-2{
+    width: 300px;
+    height: 320px;
+    position: relative;
+    left: 0;
+    bottom: 320px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.dis-img-3{
+    position: relative;
+    bottom: 200px;
+    left: 42px;
+}
+
 /* ==============main section end hare ====================== */
+
+
+/* ----------------portfolio section start hare ------------------------ */
+
+.portfolio-desc{
+    margin-left: 15px;
+}
+.portfolio-desc h5{
+    color: #F00;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.portfolio-desc h1{
+    color: #070211;
+    font-size:48px ;
+    font-weight:900 ;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.portfolio-desc p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+/* ----------------portfolio section end hare ------------------------ */
